@@ -1,0 +1,12 @@
+reate database collage;
+use colllage;
+create table student(
+name varchar(50),
+age int not null,
+roll_no int primary key,
+class int not null);
+
+insert into student values("vivek_sir",18,155,3);
+select * from student;
+
+  ---------------------------------------------------------------------------------------------------------
