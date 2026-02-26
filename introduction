@@ -3,3 +3,33 @@ there are two types of data bases first is refrence and second one is non refren
 in refrence database all the info is stored in tables and opeated by SQL
 
 in non refrence database info not stored in form of tables
+ ------------------------------------------------------------------------------------------------------------------------
+STRUCTURE OF DATABASE :: 
+    so the structure of data base is imagine that so many book shelfs are arranged in an room or warehouse each bookshelf corresponds to 
+a tabes they are interrelated so ... 
+the structure of database is one place contaning so many tabes each table stores some info and they are interjoined 
+ ------------------------------------------------------------------------------------------------------------------------
+schema is the desighn of the database or we say yahhh the desighn 
+
+ ------------------------------------------------------------------------------------------------------------------------
+   IN SQL THE LINES ARE SAID TO BE QUIREIS THEY ARE SIMPLE BUT ORDER DEPENDANT EX AFTER CREATING A DATABASE WE HAVE TO 
+USE OR SELECT THE DATABASE BEFORE CRATING THE TABLE ETC..
+
+ ------------------------------------------------------------------------------------------------------------------------
+SIMPLE CODE EXAMPLE :
+
+ ------------------------------------------------------------------------------------------------------------------------
+
+create database collage;
+use colllage;
+create table student(
+name varchar(50),
+age int not null,
+roll_no int primary key,
+class int not null);
+
+insert into student values("vivek_sir",18,155,3);
+select * from student;
+ ------------------------------------------------------------------------------------------------------------------------
+thats all  
+~ by vivek sir aidev
