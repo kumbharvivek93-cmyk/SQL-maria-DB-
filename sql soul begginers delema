@@ -1,0 +1,21 @@
+hey guys i am vivek as you know sql is soul <" . "> 
+
+lets go with table related quiries in sql ----->
+
+create database xyz;
+use xyz;
+crate table vivekkali(
+  col_1 datatype constrains,
+  -----
+------
+);
+
+NOTE THAT ::  when creating the table we have use the database means to select the database which is only can be done by 
+use dbname               lol..
+
+then insert the data in the table like 
+
+insert into tablename values(----);
+ this is corret format to inserting the data in the table 
+
+further we talk about the keys and constrains// soon   ~ by vivek sir aidev (love you all)
