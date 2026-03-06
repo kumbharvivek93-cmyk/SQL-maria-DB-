@@ -1,0 +1,34 @@
+there are various clauses in sql we can use them generally with the selct statement such as
+1. where clause
+2. order by clause
+3. group by clause
+4. having clause
+
+----------------------------------------------------------------------------------------------
+first where clause : we use the where clause to add or specify some certien conditions
+
+eg  select marks form student where marks > 9.5
+
+we can use the operators with the where clause also such as 
+
+1. arithmatic opeators + - * % / etc 
+
+eg select marks form student where marks+10 > 100
+
+2. relational operators  < > <= >= = 
+
+eg select * from student where city = "baramati"
+
+3. logical operators  and or not etc  they are super helpful
+
+eg select * from student where marks>95 and city ="baramati";
+
+4.bitwise operators and all
+----------------------------------------------------------------------------------------------
+
+
+2.order by clause 
+
+to arrange the data in the assending or desending form we use the orderby clause 
+
+eg select * from student order by marks desc;
