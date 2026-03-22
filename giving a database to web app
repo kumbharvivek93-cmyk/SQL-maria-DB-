@@ -1,0 +1,55 @@
+to give a database to a web app we have to understand some things like in which framework the app is builded ex node js , flask , django etc,
+
+in this session we are going to give a databaset to the web app created in flask
+
+lets get started ::
+
+form flask_sqlalchemy impoert SQLAlchemy 
+
+app.config["SQLALCHEMY_DATABASE_URI"]='sqlite:///User.sqlite3'
+app.congig["SQLALCHEMY_TRACK_MODIFICATIONS"]=Flase
+
+db=SQLAlchemy(app)
+
+class User(db.model):
+  COL_NAME=db.Column(db.dype,constrints)
+  COL_NAME=db.Column(db.dype,constrints)                 // this is the format code that we use to set up the database
+  COL_NAME=db.Column(db.dype,constrints)
+  COL_NAME=db.Column(db.dype,constrints)
+  COL_NAME=db.Column(db.dype,constrints)
+
+@app.route("/")
+def home():
+  return render_template("home.html")
+
+if __name__=="__main__":
+  db.create_all()   
+
+
+==================================================================================================================================================================
+
+for adding the new entry to database we follow
+
+new user=User(
+name=name
+mobile_no=mobile_no
+email=email
+)
+db.session.add(new_user)
+db.session.commit()  
+==================================================================================================================================================================
+
+for fetching the data form the database we follow 
+
+user=User.query.filter_by(email=email)
+
+if user and user.name= name:
+  print("user confirmed ")
+  print("thank you for login ")
+==================================================================================================================================================================
+to give a database to the web app the path of runner eg. gunicorn or some other runner is same to the path of the database then the data is stored in the database that is it 
+
+for viewing the data we required the GUI tool named the sqllite web data browser then open the database via same directory present in instance folder delonging to the same directory 
+
+
+~ vivek kumbhar sir aidev |(spyder aidev)   love you all ' / '
