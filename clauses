@@ -27,8 +27,19 @@ eg select * from student where marks>95 and city ="baramati";
 ----------------------------------------------------------------------------------------------
 
 
+
+
 2.order by clause 
 
 to arrange the data in the assending or desending form we use the orderby clause 
 
-eg select * from student order by marks desc;
+eg select * from student order by marks desc;there are so many clauses in sql so general oreder is 
+----------------------------------------------------------------------------------------------
+
+select // used to select columns or all df 
+from   // used to specify the tabel
+where   // used with operators 
+group by  // used with aggrigation functions 
+having  // used to apply the conditions on groups
+oreder by  // used to arrange the data in assending or descending format
+limit   // used to limit the data wich passed through all conditions
